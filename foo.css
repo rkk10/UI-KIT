@@ -1,0 +1,50 @@
+* gobal selector > target selctor + sibling selector ~ from this to this <space> decendent selector eg. div p {}
+
+psudo classes:root root Element:host:active:hover:visited:link:target::before::after::-moz-selection::invalid element[attribute="attr-name"] element[att*="do"] element[att$="oo"] element[att^="ja"] childwise:first-line:first-letter:first-child():last-child():nth-of-child(odd/even/3n/3n+4/number):first-of-type():last-of-type():nth-of-type(1/odd/even):nth-last-of-type():only-of-type():not(p):checked():enable:disable @ rules @font-face {}
+
+psudo classes:root root Element:host:active:hover:visited:link:target::before::after::selection::invalid element[attribute="attr-name"] element[att*="do"] element[att$="oo"] element[att^="ja"] childwise:first-line:first-letter:first-child():last-child():nth-of-child(odd/even/3n/3n+4/number):first-of-type():last-of-type():nth-of-type(1/odd/even):nth-last-of-type():only-of-type():not(p):checked():enable:disable @ rules @font-face {}
+
+@-webkit-keyframes {}
+
+@keyframes {}
+
+@media {}
+
+@-ms-viewport {}
+
+@-o-viewport {}
+
+@viewport {}
+
+@support {}
+
+@support {
+	section {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+	}
+	image {
+		background-blend-mode: darken;
+	}
+}
+
+@viewport {
+	width: device-width;
+	initial-scale: 1.0;
+	user-scalable: no;
+}
+
+@media print {
+	* {
+		font-size: 11px;
+		display: block;
+		background: none;
+		color: black;
+	}
+	a {
+		color: blue;
+		text-decoration: underline;
+	}
+}
